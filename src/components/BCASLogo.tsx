@@ -48,7 +48,7 @@ export default function BCASLogo({ className = "", size = "md", variant = "light
         } ${current.container} ${current.padding}`}
       >
         <img
-          src="/logo.png"
+          src={`${import.meta.env.BASE_URL}logo.png`}
           alt="BCAS International University Placements"
           className="w-full h-full object-contain transition-transform duration-500"
           style={{ transform: `scale(${current.scale})` }}
