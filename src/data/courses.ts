@@ -1,4 +1,11 @@
 import { Course, SuccessStory } from "../types";
+import theniyanImg from "../assets/images/theniyan.jpg";
+import vijenthiraImg from "../assets/images/vijenthira.jpg";
+import ludsiyaImg from "../assets/images/ludsiya.jpg";
+import janeelsanImg from "../assets/images/janeelsan.jpg";
+import anithaImg from "../assets/images/anitha.jpg";
+import ashimImg from "../assets/images/ashim.jpg";
+import saranjaImg from "../assets/images/saranja.jpg";
 
 export const PRE_LOAD_COURSES: Course[] = [
   // UNITED KINGDOM
@@ -180,7 +187,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "Successfully obtained my UK Student Visa to pursue BSc (Hons) Applied Computing (Top-Up) at the University of East London. The entire process was handled professionally and seamlessly by BCAS International!",
     currentRole: "Applied Computing Scholar",
-    studentImage: "/src/assets/images/theniyan.jpg"
+    studentImage: theniyanImg
   },
   {
     id: "story-vijenthira",
@@ -191,7 +198,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "Extremely grateful to BCAS International for helping me obtain my UK Student Visa to pursue BSc (Hons) Applied Computing (Top-Up) at the University of East London. Their guidance and counselor support were excellent.",
     currentRole: "Computing & IT Aspirant",
-    studentImage: "/src/assets/images/vijenthira.jpg"
+    studentImage: vijenthiraImg
   },
   {
     id: "story-ludsiya",
@@ -202,7 +209,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "My journey to obtaining a UK Student Visa for a BSc (Hons) in Biomedical Science with Foundation Year at Birmingham City University was made possible by the incredible team at BCAS International. Highly recommended!",
     currentRole: "Biomedical Science Scholar",
-    studentImage: "/src/assets/images/ludsiya.jpg"
+    studentImage: ludsiyaImg
   },
   {
     id: "story-janeelsan",
@@ -213,7 +220,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "Thanks to BCAS International, I successfully received my UK Student Visa to study BA (Hons) Business Management and Administration at the University of Chester. Their step-by-step guidance made everything effortless.",
     currentRole: "Business Management Trainee",
-    studentImage: "/src/assets/images/janeelsan.jpg"
+    studentImage: janeelsanImg
   },
   {
     id: "story-anitha",
@@ -224,7 +231,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "Delighted to secure my UK Student Visa for BA (Hons) International Business Management (Top-Up) at the University of Hertfordshire. BCAS International offered outstanding guidance at every milestone.",
     currentRole: "International Business Executive",
-    studentImage: "/src/assets/images/anitha.jpg"
+    studentImage: anithaImg
   },
   {
     id: "story-ashim",
@@ -235,7 +242,7 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "A proud moment obtaining my UK Student Visa for BSc (Hons) Computer Science (Software Engineering) at the University of Hertfordshire. The visa counseling and application tracking from BCAS International were outstanding.",
     currentRole: "Software Engineering Scholar",
-    studentImage: "/src/assets/images/ashim.jpg"
+    studentImage: ashimImg
   },
   {
     id: "story-saranja",
@@ -246,6 +253,6 @@ export const SUCCESS_STORIES: SuccessStory[] = [
     placedYear: "2025",
     testimonial: "Successfully obtained my UK Student Visa to pursue BSc (Hons) Biomedical Science (Year 2) at the University of Hertfordshire. I am extremely thankful to BCAS International for coordinating this pathway and visa logic.",
     currentRole: "Biomedical Science Researcher",
-    studentImage: "/src/assets/images/saranja.jpg"
+    studentImage: saranjaImg
   }
 ];
