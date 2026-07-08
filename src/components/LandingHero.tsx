@@ -27,6 +27,9 @@ import {
 import { motion } from "motion/react";
 import TestimonialCarousel from "./TestimonialCarousel";
 import YouTubeTestimonials from "./YouTubeTestimonials";
+import campusUkImg from "../assets/images/campus_uk_1782116777947.jpg";
+import campusAustraliaImg from "../assets/images/campus_australia_1782116791822.jpg";
+import campusCanadaImg from "../assets/images/campus_canada_1782116809850.jpg";
 
 interface LandingHeroProps {
   onNavigate: (tab: string) => void;
