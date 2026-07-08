@@ -48,7 +48,7 @@ interface BannerSlide {
 const DEFAULT_SLIDES: BannerSlide[] = [
   {
     id: "slide-1",
-    image: "/src/assets/images/campus_uk_1782116777947.jpg",
+    image: campusUkImg,
     subtitle: "ESTABLISHED UK PLACEMENT CHAMPIONS",
     title: "University of London Partner Programs",
     slogan: "Secure direct-entry fast-track placements, up to £3,000 entrance awards, and comprehensive Post-Study Work Visa support.",
@@ -57,7 +57,7 @@ const DEFAULT_SLIDES: BannerSlide[] = [
   },
   {
     id: "slide-2",
-    image: "/src/assets/images/campus_australia_1782116791822.jpg",
+    image: campusAustraliaImg,
     subtitle: "DREAM AUSTRALIAN TECH STUDY PATHWAYS",
     title: "Curtin University & Top Go8 Institutions",
     slogan: "Accelerated credit recognition for BCAS Higher Diploma grads. Direct placement application channels open now for next intake.",
@@ -66,7 +66,7 @@ const DEFAULT_SLIDES: BannerSlide[] = [
   },
   {
     id: "slide-3",
-    image: "/src/assets/images/campus_canada_1782116809850.jpg",
+    image: campusCanadaImg,
     subtitle: "PREMIUM CANADIAN STEM DIPLOMATS",
     title: "Top Toronto & Vancouver Partner Systems",
     slogan: "Gain reliable access to high-demand computing, sustainable engineering, and 3-Year Post-Graduation Work Permits (PGWP).",
