@@ -1,0 +1,8 @@
+{
+  "name": "BCAS International",
+  "description": "Premium university placement and student recruitment platform for BCAS International, with a course comparison dashboard, application portal, and smart AI matchmaker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
