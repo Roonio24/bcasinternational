@@ -1,0 +1,98 @@
+/* BCAS International — Lead Form styling
+   Palette: navy #0A1F44, crimson #C8102E, sky blue #4FA8E0
+   Fonts: Syne (headings), DM Sans (body) — make sure these are loaded/imported already */
+
+.lead-form {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(10, 31, 68, 0.12);
+  font-family: "DM Sans", sans-serif;
+}
+
+.lead-form h3 {
+  font-family: "Syne", sans-serif;
+  color: #0a1f44;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.lead-form__subtitle {
+  color: #4a5568;
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+
+.lead-form__row {
+  margin-bottom: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.lead-form__row label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0a1f44;
+  margin-bottom: 0.35rem;
+}
+
+.lead-form__row input,
+.lead-form__row select,
+.lead-form__row textarea {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #d1d9e6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #0a1f44;
+  background: #f8fafc;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lead-form__row input:focus,
+.lead-form__row select:focus,
+.lead-form__row textarea:focus {
+  outline: none;
+  border-color: #4fa8e0;
+  box-shadow: 0 0 0 3px rgba(79, 168, 224, 0.2);
+}
+
+.lead-form button[type="submit"] {
+  width: 100%;
+  padding: 0.85rem;
+  background: #c8102e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Syne", sans-serif;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.lead-form button[type="submit"]:hover:not(:disabled) {
+  background: #a30d25;
+}
+
+.lead-form button[type="submit"]:disabled {
+  background: #d1d9e6;
+  cursor: not-allowed;
+}
+
+.lead-form__error {
+  color: #c8102e;
+  font-size: 0.85rem;
+  margin: -0.5rem 0 1rem;
+}
+
+.lead-form--success {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.lead-form--success h3 {
+  color: #0a1f44;
+}
